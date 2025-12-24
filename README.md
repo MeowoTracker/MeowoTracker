@@ -29,6 +29,7 @@ So, [organisation](https://github.com/MeowoTracker) helps organise my knowledge 
 ## Installing
 
 - Download latest Pocketbase realease
-- Import pb_schema.json from this repository
+- Run Pocketbase server
+- Upload pb_schema.json from this repository to pocketbase instance
 
 Enjoy another modules!
