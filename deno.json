@@ -4,6 +4,7 @@
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
-    "type-fest": "npm:type-fest@^5.3.1"
+    "type-fest": "npm:type-fest@^5.3.1",
+    "pocketbase": "npm:pocketbase@latest"
   }
 }
