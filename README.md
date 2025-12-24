@@ -22,6 +22,13 @@ So, [organisation](https://github.com/MeowoTracker) helps organise my knowledge 
 
 <center>
 
-![Диаграмма представляет архитектуру системы для отслеживания активности и анализа данных. Слева показаны модули и компоненты, связанные с отслеживанием: 1. Tracker: - Mi Fitness Sleep Tracking - App Usage Android Tracker: ActivityWatch - App Usage Linux Tracker: ActivityWatch 2. Tracker Exporter Layer 3. MeowoTrackerAPI 4. MeowoTracker 5. LLM analyzing Справа показаны платформы и интеграция: 1. Android 2. Fedora KDE 3. awatcher bundle 4. ActivityWatch Диаграмма показывает, что ActivityWatch интегрируется с Android и Fedora KDE через awatcher bundle. MeowoTracker и MeowoTrackerAPI связаны с LLM analyzing, а MeowoTrackerAPI также связан с MeowoTracker. Tracker Exporter Layer связан с Tracker.](./assets/architecture.png) 
+![The diagram represents the system architecture for activity tracking and data analysis. The modules and components related to tracking are shown on the left: 1. Tracker: - Mi Fitness Sleep Tracking - App Usage Android Tracker: ActivityWatch - App Usage Linux Tracker: ActivityWatch 2. Tracker Exporter Layer 3. MeowoTrackerAPI 4. MeowoTracker 5. LLM analyzing The platforms and integration are shown on the right: 1. Android 2. Fedora KDE 3. awatcher bundle 4. ActivityWatch The diagram shows that ActivityWatch integrates with Android and Fedora KDE via the awatcher bundle. MeowoTracker and MeowoTrackerAPI are linked to LLM analyzing, and MeowoTrackerAPI is also linked to MeowoTracker. The Tracker Exporter Layer is linked to Tracker.](./assets/architecture.png) 
 
 </center>
+
+## Installing
+
+- Download latest Pocketbase realease
+- Import pb_schema.json from this repository
+
+Enjoy another modules!
